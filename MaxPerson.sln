@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPerson.Domain", "MaxPers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPerson.Web", "MaxPerson.Web\MaxPerson.Web.csproj", "{282DC05D-686C-495F-B882-1E05377CE82A}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "MaxPerson.UML", "MaxPerson.UML\MaxPerson.UML.modelproj", "{A0B9B563-C451-4E24-A55E-148797165247}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. UML", "1. UML", "{D14D53B2-C009-4460-B956-B3494C027BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPerson.UMLLib", "MaxPerson.UMLLib\MaxPerson.UMLLib.csproj", "{F1E16703-0E27-41E9-9154-607CEBCCAAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPerson.Dominio", "MaxPerson.Dominio\MaxPerson.Dominio.csproj", "{D44B2FB0-D003-4A83-9295-0A2F703B957B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxPerson.Dominio.Teste", "MaxPerson.Dominio.Teste\MaxPerson.Dominio.Teste.csproj", "{FB4BC9A2-5D43-45B0-B845-8ABC2BD31204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,16 +45,36 @@ Global
 		{39E24438-A413-4226-AC5A-98DBA831D24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39E24438-A413-4226-AC5A-98DBA831D24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39E24438-A413-4226-AC5A-98DBA831D24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B9B563-C451-4E24-A55E-148797165247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B9B563-C451-4E24-A55E-148797165247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B9B563-C451-4E24-A55E-148797165247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B9B563-C451-4E24-A55E-148797165247}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2729D6B-0D53-4FB6-B4C6-F170EC2B51CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2729D6B-0D53-4FB6-B4C6-F170EC2B51CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2729D6B-0D53-4FB6-B4C6-F170EC2B51CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2729D6B-0D53-4FB6-B4C6-F170EC2B51CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44B2FB0-D003-4A83-9295-0A2F703B957B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44B2FB0-D003-4A83-9295-0A2F703B957B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44B2FB0-D003-4A83-9295-0A2F703B957B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44B2FB0-D003-4A83-9295-0A2F703B957B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E16703-0E27-41E9-9154-607CEBCCAAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E16703-0E27-41E9-9154-607CEBCCAAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E16703-0E27-41E9-9154-607CEBCCAAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E16703-0E27-41E9-9154-607CEBCCAAA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8805F34-C6B7-4B94-83B1-5A5426C6CD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8805F34-C6B7-4B94-83B1-5A5426C6CD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8805F34-C6B7-4B94-83B1-5A5426C6CD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8805F34-C6B7-4B94-83B1-5A5426C6CD56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4BC9A2-5D43-45B0-B845-8ABC2BD31204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4BC9A2-5D43-45B0-B845-8ABC2BD31204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4BC9A2-5D43-45B0-B845-8ABC2BD31204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4BC9A2-5D43-45B0-B845-8ABC2BD31204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0B9B563-C451-4E24-A55E-148797165247} = {D14D53B2-C009-4460-B956-B3494C027BB0}
+		{F1E16703-0E27-41E9-9154-607CEBCCAAA9} = {D14D53B2-C009-4460-B956-B3494C027BB0}
 	EndGlobalSection
 EndGlobal
